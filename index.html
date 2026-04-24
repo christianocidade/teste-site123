@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christiano Cidade - Tráfego Pago & IA | Estilo Alliance Londrina</title>
+    <title>Christiano Cidade - Identidade Alliance Londrina</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -11,8 +11,13 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        'montserrat': ['Montserrat', 'sans-serif'],
-                    }
+                        montserrat: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        alliance: {
+                            red: '#E30613',
+                        },
+                    },
                 }
             }
         }
@@ -20,127 +25,95 @@
 </head>
 <body class="font-montserrat bg-white text-[#1A1A1A]">
     <!-- Navbar -->
-    <nav class="fixed top-0 w-full bg-white shadow-sm z-50">
+    <nav class="fixed top-0 w-full bg-white shadow-md z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-4">
-                <div class="text-2xl font-bold bg-gradient-to-r from-[#1A1A1A] to-[#E30613] bg-clip-text text-transparent">
-                    Christiano Cidade
-                </div>
-                <a href="https://wa.me/5541999999999?text=Olá%20Christiano%2C%20quero%20gerar%20leads!" 
-                   class="bg-[#E30613] text-white px-6 py-2 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 font-semibold">
-                    Fale Comigo
+                <div class="text-2xl font-bold text-[#1A1A1A]">Christiano Cidade</div>
+                <a href="https://wa.me/5543000000000?text=Olá,%20quero%20vender%20mais%20no%20WhatsApp!" 
+                   class="bg-alliance-red text-white px-8 py-3 rounded-full font-semibold hover:bg-red-600 transition duration-300">
+                    Fale no WhatsApp
                 </a>
             </div>
         </div>
     </nav>
 
     <!-- Hero -->
-    <section class="pt-24 pb-32 bg-gradient-to-b from-white to-gray-50">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-5xl md:text-7xl font-bold text-[#1A1A1A] mb-6 leading-tight">
-                Gere Leads e Vendas<br>
-                <span class="text-[#E30613]">no WhatsApp</span>
+    <section class="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-24 pb-20">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-bold mb-8 leading-tight">
+                Venda mais no WhatsApp
+                <span class="block text-alliance-red">com Tráfego Pago e Inteligência Artificial</span>
             </h1>
-            <p class="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-                Com Tráfego Pago Estratégico, Automação IA e Edição Profissional de DR.
+            <p class="text-xl md:text-2xl text-gray-700 mb-12 max-w-2xl mx-auto">
+                Impulsione suas vendas com estratégias comprovadas.
             </p>
-            <a href="https://wa.me/5541999999999?text=Olá%20Christiano%2C%20quero%20gerar%20leads!" 
-               class="inline-block bg-[#E30613] text-white px-10 py-6 rounded-xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 text-xl font-semibold">
+            <a href="https://wa.me/5543000000000?text=Olá,%20quero%20vender%20mais%20no%20WhatsApp!" 
+               class="bg-alliance-red text-white px-12 py-6 rounded-full font-semibold text-xl hover:bg-red-600 transition duration-300 shadow-xl">
                 Comece Agora
             </a>
         </div>
     </section>
 
-    <!-- Stats -->
+    <!-- Prova Social -->
     <section class="py-24 bg-gray-50">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12">
-            <div class="bg-white border border-gray-200 rounded-2xl shadow-sm p-12 text-center hover:shadow-md transition-shadow">
-                <div class="text-5xl md:text-6xl font-bold text-[#E30613] mb-4">R$ 3M</div>
-                <div class="text-2xl font-semibold text-[#1A1A1A] mb-2">Investidos</div>
-                <p class="text-gray-600 text-lg">Em anúncios para resultados reais</p>
-            </div>
-            <div class="bg-white border border-gray-200 rounded-2xl shadow-sm p-12 text-center hover:shadow-md transition-shadow">
-                <div class="text-5xl md:text-6xl font-bold text-[#E30613] mb-4">R$ 30M</div>
-                <div class="text-2xl font-semibold text-[#1A1A1A] mb-2">Gerados</div>
-                <p class="text-gray-600 text-lg">Em faturamento para clientes</p>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-16">Resultados Comprovados</h2>
+            <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <div>
+                    <div class="text-6xl md:text-7xl font-bold text-alliance-red mb-4">R$ 3.000.000</div>
+                    <p class="text-2xl font-semibold text-gray-700">Investidos em Tráfego</p>
+                </div>
+                <div>
+                    <div class="text-6xl md:text-7xl font-bold text-[#1A1A1A] mb-4">R$ 30.000.000</div>
+                    <p class="text-2xl font-semibold text-gray-700">Gerados em Vendas</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Services -->
+    <!-- Ecossistema de Serviços -->
     <section class="py-24">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl md:text-5xl font-bold text-[#1A1A1A] text-center mb-4">Serviços</h2>
-            <p class="text-xl text-gray-600 text-center mb-20 max-w-2xl mx-auto leading-relaxed">Especializado em resultados com foco em performance.</p>
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Tráfego -->
-                <div class="bg-white rounded-2xl shadow-sm p-10 text-center hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
-                    <div class="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-[#E30613]/10 to-red-100 p-4 group-hover:scale-110 transition-transform">
-                        <svg class="w-full h-full text-[#E30613]" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl font-bold text-[#1A1A1A] mb-4">Tráfego Pago</h3>
-                    <p class="text-gray-600 mb-6">Gestão estratégica de anúncios para maximizar ROI.</p>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">Ecossistema de Serviços</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white border border-gray-200 rounded-2xl p-8 text-center hover:shadow-2xl transition duration-300">
+                    <h3 class="text-2xl font-bold mb-4">Tráfego Pago</h3>
+                    <p class="text-lg text-gray-700 mb-6">Atraia clientes qualificados diretamente para o seu WhatsApp.</p>
                 </div>
-                <!-- IA -->
-                <div class="bg-white rounded-2xl shadow-sm p-10 text-center hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
-                    <div class="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-[#E30613]/10 to-red-100 p-4 group-hover:scale-110 transition-transform">
-                        <svg class="w-full h-full text-[#E30613]" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl font-bold text-[#1A1A1A] mb-4">Automação IA</h3>
-                    <p class="text-gray-600 mb-6">Inteligência artificial para otimizar leads e vendas.</p>
+                <div class="bg-white border border-gray-200 rounded-2xl p-8 text-center hover:shadow-2xl transition duration-300">
+                    <h3 class="text-2xl font-bold mb-4">Agentes de IA</h3>
+                    <p class="text-lg text-gray-700 mb-6">Automatize conversas e feche mais vendas 24/7.</p>
                 </div>
-                <!-- Edição DR -->
-                <div class="bg-white rounded-2xl shadow-sm p-10 text-center hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
-                    <div class="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-[#E30613]/10 to-red-100 p-4 group-hover:scale-110 transition-transform">
-                        <svg class="w-full h-12 h-full text-[#E30613]" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 5.94 3.34 6 5c1.24 0 2.45-.2 3.5-.67l.5.67.5-.68c.38-.52 1.02-.84 1.68-.84s1.3.32 1.68.84l.5.67.5-.67C15.4 3.8 16.6 3 18 3c1.66 0 3 1.34 3 3 0 .35-.07.69-.18 1H20c1.1 0 1.99.89 1.99 2L22 18c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h2v6h2V4h12v2z"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl font-bold text-[#1A1A1A] mb-4">Edição DR</h3>
-                    <p class="text-gray-600 mb-6">Edição profissional de vídeos para alta conversão.</p>
+                <div class="bg-white border border-gray-200 rounded-2xl p-8 text-center hover:shadow-2xl transition duration-300">
+                    <h3 class="text-2xl font-bold mb-4">Edição de Vídeo DR</h3>
+                    <p class="text-lg text-gray-700 mb-6">Vídeos persuasivos que convertem visualmente.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Bio -->
+    <!-- Autoridade -->
     <section class="py-24 bg-gray-50">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-16 items-center">
-            <div>
-                <img src="https://via.placeholder.com/500x600/1A1A1A/E30613?text=Christiano+Cidade" alt="Christiano Cidade" class="w-full max-w-md mx-auto rounded-2xl shadow-2xl">
-            </div>
-            <div>
-                <h2 class="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-6">Sobre Christiano</h2>
-                <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-                    Faixa Preta <span class="font-semibold text-[#E30613]">Alliance Londrina</span>.<br>
-                    Especialista em <span class="font-semibold text-[#E30613]">Spin Selling</span> e performance digital.
-                </p>
-                <p class="text-lg text-gray-600 mb-8 leading-relaxed">
-                    Mais de 5 anos transformando investimentos em resultados exponenciais para empreendedores.
-                </p>
-                <a href="https://wa.me/5541999999999?text=Olá%20Christiano%2C%20conte%20mais%20sobre%20você!" 
-                   class="inline-block bg-[#E30613] text-white px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-semibold">
-                    Saiba Mais
-                </a>
-            </div>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <img src="https://via.placeholder.com/150x150/1A1A1A/FFFFFF?text=CC" alt="Christiano Cidade" class="w-32 h-32 mx-auto rounded-full mb-8 shadow-lg">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Christiano Cidade</h2>
+            <p class="text-2xl font-semibold text-alliance-red mb-8">Faixa Preta Alliance</p>
+            <p class="text-xl text-gray-700 mb-12 max-w-2xl mx-auto">
+                Especialista em Spin Selling com anos de experiência gerando resultados reais para negócios.
+            </p>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="py-12 bg-[#1A1A1A] text-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div class="text-2xl font-bold mb-4">Christiano Cidade</div>
-            <p class="text-gray-400 mb-6">© 2024 Todos os direitos reservados.</p>
-            <div class="flex justify-center space-x-6 text-gray-400">
-                <a href="#" class="hover:text-[#E30613] transition-colors">Instagram</a>
-                <a href="#" class="hover:text-[#E30613] transition-colors">WhatsApp</a>
-                <a href="#" class="hover:text-[#E30613] transition-colors">LinkedIn</a>
-            </div>
+    <!-- CTA Final -->
+    <section class="py-24 text-center">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Pronto para Vender Mais?</h2>
+            <p class="text-xl text-gray-700 mb-12">Fale comigo agora e transforme seu WhatsApp em uma máquina de vendas.</p>
+            <a href="https://wa.me/5543000000000?text=Olá,%20quero%20vender%20mais%20no%20WhatsApp!" 
+               class="bg-alliance-red text-white px-12 py-6 rounded-full font-semibold text-xl hover:bg-red-600 transition duration-300 shadow-xl inline-block">
+                Fale no WhatsApp Agora
+            </a>
         </div>
-    </footer>
+    </section>
 </body>
 </html>
